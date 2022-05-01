@@ -1,0 +1,4 @@
+name: newsletterapp
+recipe: drupal9
+config:
+  webroot: .
