@@ -1,7 +1,7 @@
-newsletter_subscription.home:
-  path: '/newsletter'
+newsletter_subscription.newsletterform:
+  path: '/subscribe'
   defaults:
-    _controller: '\Drupal\newsletter_subscription\Controller\newsletterController::show'
-    _title: 'you can use this to subscribe'
+    _title: 'thanks for your subscription'
+    _form: 'Drupal\newsletter_subscription\Form\newsletterForm'
   requirements:
     _permission: 'access content'
