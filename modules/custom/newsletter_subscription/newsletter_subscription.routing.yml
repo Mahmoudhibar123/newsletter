@@ -1,0 +1,7 @@
+newsletter_subscription.home:
+  path: '/newsletter'
+  defaults:
+    _controller: '\Drupal\newsletter_subscription\Controller\newsletterController::show'
+    _title: 'you can use this to subscribe'
+  requirements:
+    _permission: 'access content'
