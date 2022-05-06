@@ -5,11 +5,3 @@ newsletter_subscription.newsletterform:
     _form: 'Drupal\newsletter_subscription\Form\newsletterForm'
   requirements:
     _permission: 'access content'
-
-newsletter_subscription.newsletters:
-  path: '/newsletters'
-  defaults:
-    _title: 'list of registration'
-    _controller: 'Drupal\newsletter_subscription\Controller\newsletterController::list'
-  requirements:
-    _permission: 'access content'
